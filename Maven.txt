@@ -1,0 +1,30 @@
+- Definition:
+Apache Maven is a software project management and comprehension tool.
+Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+
+- POM definition:
+POM stands for Project Object Model. It is fundamental unit of work in Maven. It is an XML file that resides in the base directory of the project as pom.xml.
+The POM contains information about the project and various configuration detail used by Maven to build the project(s).
+
+It should be noted that there should be a single POM file for each project.
+  + All POM files require the project element and three mandatory fields: groupId, artifactId, version.
+  + Projects notation in repository is groupId:artifactId:version.
+  + Minimal requirements for a POM.
+
+- Feature:
+Simple project setup that follows best practices - get a new project or module started in seconds
+Consistent usage across all projects - means no ramp up time for new developers coming onto a project
+Superior dependency management including automatic updating, dependency closures (also known as transitive dependencies)
+A large and growing repository of libraries and metadata to use out of the box, and arrangements in place with the largest Open Source projects for real-time availability of their latest releases
+Extensible, with the ability to easily write plugins in Java or scripting languages
+Instant access to new features with little or no extra configuration
+Model based builds: Maven is able to build any number of projects into predefined output types such as a JAR, WAR, or distribution based on metadata about the project, without the need to do any scripting in most cases.
+
+- Dependency and Repository:
+Dependency is the java librarian outside used for project.
+Repository is the place stored dependency under jar.
+
+- Build lifecycles, Phases and goals:
+a build life cycle include a series of phase, each phase wil have a chunk of goals.
+maven phase: validate, compile, test-compile, test, package, integration-test, install, deploy
+maven goals: compile, install 

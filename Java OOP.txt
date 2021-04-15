@@ -1,0 +1,24 @@
+1. OOP defintion: Object-Oriented Programming is a paradigm that provides many concepts, such as inheritance, polymorphism, abstraction, encapsulation, etc. 
+The main aim of object-oriented programming is to implement real-world entities, for example, object, classes, abstraction, inheritance, polymorphism, etc. 
+
+Object: an object has state and behavior. For example: people, phone, computer,... An object can be defined as an instance of a class.
+Class: is a collection of objects. It is logical entity.
+2. Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object. 
+The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of the parent class. Moreover, you can add new methods and fields in your current class also. Three types of inheritance: single, mutilevel, hierarchical.
+3. Abstraction: hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing.
+In Java, we use abstract class and interface to achieve abstraction.
+	Abstract class: A class which is declared with the abstract keyword is known as an 	abstract class in Java. It can have abstract and non-abstract methods (method with 	the body). 
+	Interface: is a blueprint of the class. It has static constants and abstract methods. The 	interface in Java is a mechanism to achieve the abstraction. There can be only abstract 	methods in the Java interface, not method body. It is used to achieve abstraction and 	multiple inheritance in Java. 
+4. Encapsulation: is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding. To achieve encapsulation in Java: declare the variables of a class as private, provide pupblic setter and getter methods to modify and view the variables values.
+5. Polymorphism: if one task is performed in different ways, it is known as polymorphism. For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+	In Java, we use method overloading and method overriding to achieve polymorphism.
+	Another example can be to speak something; for example, a cat speaks meow, dog 	barks woof, etc.
+Method Overloading: if a class has multiple methods having same name but different in parameters. Method overloading increases the readability of the program. There are two ways to overload the method in java: 
+By changing number of arguments
+By changing the date type
+Method overriding: If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java. Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
+
+
+
+
+
